@@ -1,0 +1,40 @@
+body{
+    background-image: url("https://img.wallpapersafari.com/desktop/1920/1080/97/92/mrzyZ2.jpg");
+    height: 500%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h2 {
+    margin-left: 600px;
+}
+
+h4 {
+    margin-left: 650px;
+}
+
+b {
+    margin-left: 400px; 
+}
+
+table{
+    width: 80px;
+    height: 80px;
+    display: flex;
+}
+
+.container tr td > input{
+    border: 2px solid rgb(20, 103, 159);
+    height: 40px;
+    width: 50px;
+    margin: 5px;
+    margin-top: 5px;
+    margin-left: 5px;
+    text-transform: uppercase;
+}
+
+.container {
+    width: 100px;
+    height: 100px;
+}

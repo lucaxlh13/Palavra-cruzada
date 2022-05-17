@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Palavras Cruzadas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+        <h2>PALAVRA-CRUZADA </h2>
+        <h4> DICAS </h4>
+
+        <b>Informe um numero de 1 a 11 para saber sua dica: <input id="input_dicas" type="number"></b> <button onclick="dica()" >Ver Dica</button>
+
+
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <table class="container">
+
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td> <input placeholder="3" type="text" class="template" maxlength="1"></td>
+            <td> <input placeholder="1" type="text" class="template" maxlength="1"></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td><input placeholder="3" type="text" class="template" maxlength="1"></td>
+            <td><input placeholder="1" type="text" class="template" maxlength="1"></td>
+            <td><input placeholder="4" type="text" class="template" maxlength="1"></td>
+            <td><input placeholder="4" type="text" class="template" maxlength="1"></td>
+            <td><input placeholder="4" type="text" class="template" maxlength="1"></td>
+            <td></td>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td> <input placeholder="3" type="text" class="template" maxlength="1"></td>
+            <td> <input placeholder="2" type="text" class="template" maxlength="1"></td>
+            <td> <input placeholder="2" type="text" class="template" maxlength="1"></td>
+            <td> <input placeholder="2" type="text" class="template" maxlength="1"></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td> <input placeholder="9" type="text" class="template" maxlength="1"></td>
+            <td> <input placeholder="9" type="text" class="template" maxlength="1"></td>
+            <td></td>
+            <td> <input placeholder="7" type="text" class="template" maxlength="1"></td>
+            <td> <input placeholder="8" type="text" class="template" maxlength="1"></td>
+            <td> <input placeholder="8" type="text" class="template" maxlength="1"></td>
+            <td> <input placeholder="8" type="text" class="template" maxlength="1"></td>
+            <td> <input placeholder="8" type="text" class="template" maxlength="1"></td>
+            <td> <input placeholder="8" type="text" class="template" maxlength="1"></td>
+            <td> <input placeholder="8" type="text" class="template" maxlength="1"></td>
+        </tr>
+
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td> <input placeholder="3" type="text" class="template" maxlength="1"></td>
+            <td></td>
+            <td></td>
+            <td> <input placeholder="7" type="text" class="template" maxlength="1"></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td> <input placeholder="3" type="text" class="template" maxlength="1"></td>
+            <td></td>
+            <td></td>
+            <td> <input placeholder="7" type="text" class="template" maxlength="1"></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td> <input placeholder="3" type="text" class="template" maxlength="1"></td>
+            <td></td>
+            <td></td>
+            <td> <input placeholder="7" type="text" class="template" maxlength="1"></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td> <input placeholder="5" type="text" class="template" maxlength="1"></td>
+            <td> <input placeholder="5" type="text" class="template" maxlength="1"></td>
+            <td> <input placeholder="5" type="text" class="template" maxlength="1"></td>
+            <td></td>
+            <td></td>
+            <td> <input placeholder="7" type="text" class="template" maxlength="1"></td>
+            <td> <input placeholder="11" type="text" class="template" maxlength="1"></td>
+            <td></td>
+            <td></td>
+        </tr>
+        
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td> <input placeholder="3" type="text" class="template" maxlength="1"></td>
+            <td></td>
+            <td></td>
+            <td> <input placeholder="7" type="text" class="template" maxlength="1"></td>
+            <td> <input placeholder="11" type="text" class="template" maxlength="1"></td>
+            <td></td>
+            <td></td>
+        </tr>
+        
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td> <input placeholder="3" type="text" class="template" maxlength="1"></td>
+            <td></td>
+            <td> <input placeholder="10" type="text" class="template" maxlength="1"></td>
+            <td> <input placeholder="10" type="text" class="template" maxlength="1"></td>
+            <td> <input placeholder="11" type="text" class="template" maxlength="1"></td>
+            <td> <input placeholder="10" type="text" class="template" maxlength="1"></td>
+            <td> <input placeholder="10" type="text" class="template" maxlength="1"></td>
+            <td> <input placeholder="10" type="text" class="template" maxlength="1"></td>
+            <td> <input placeholder="10" type="text" class="template" maxlength="1"></td>
+            <td> <input placeholder="10" type="text" class="template" maxlength="1"></td>
+            <td> <input placeholder="10" type="text" class="template" maxlength="1"></td>
+        </tr>
+        
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td> <input placeholder="3" type="text" class="template" maxlength="1"></td>
+            <td></td>
+            <td></td>
+            <td> <input placeholder="7" type="text" class="template" maxlength="1"></td>
+            <td> <input placeholder="11" type="text" class="template" maxlength="1"></td>
+            <td></td>
+            <td></td>
+        </tr>
+        
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td> <input placeholder="3" type="text" class="template" maxlength="1"></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td> <input placeholder="11" type="text" class="template" maxlength="1"></td>
+            <td></td>
+            <td></td>
+        </tr>
+        
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td> <input placeholder="6" type="text" class="template" maxlength="1"></td>
+            <td> <input placeholder="6" type="text" class="template" maxlength="1"></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td> <input placeholder="11" type="text" class="template" maxlength="1"></td>
+            <td></td>
+            <td></td>
+        </tr>
+        
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td> <input placeholder="11" type="text" class="template" maxlength="1"></td>
+            <td></td>
+            <td></td>
+        </tr>
+        
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td> <input placeholder="11" type="text" class="template" maxlength="1"></td>
+            <td></td>
+            <td></td>
+        </tr>
+        
+      
+    </table>
+
+</body>
+</html>
+
+<script>
+
+    function dica() {
+        var dica = Number (input_dicas.value)
+
+        if (dica == 1 ) {
+            alert("É a parte do processador que realiza todas as intruçoes de um programa de computador.");
+        }
+
+        if (dica == 2 ) {
+            alert("Ela soma, subtrai, divide, determina se um número é positivo ou negativo ou se é zero.");
+        }
+
+        if (dica == 3 ) {
+            alert("Corresponde a uma memória local rápida do microprocessador.");
+        }
+
+        if (dica == 4 ) {
+            alert("É memória que é capaz de guarda as informações, para serem recuperadas e utilizadas assim que for necessaria.");
+        }
+
+        if (dica == 5 ) {
+            alert(" O ___ traduzido para portugues “ACESSO DIRETO A MEMORIA” é um recurso da placa mãe que capacita os periféricos a terem acesso direto à memória RAM, sem sobrecarregarem o processador.");
+        }
+
+        if (dica == 6 ) {
+            alert("Qual a sigla para Chip Select ?");
+        }
+
+        if (dica == 7 ) {
+            alert("Qual nome é dado a um sistema de comunicação que transfere dados entre componentes dentro de um computador ou entre computadores ? ");
+        }
+        
+        if (dica == 8 ) {
+            alert("Transferencia de dados por via eletrica entre componenetes de um computador se chama ? ");
+        }
+
+        if (dica == 9 ) {
+            alert("Foi o Processador lançado em setembro de 2009.");
+        }
+
+        if (dica == 10 ) {
+            alert("Processador que é como se tivesse 2 cerebros trabalhando para seu melhor rendimento.");
+        }
+
+        if (dica == 11 ) {
+            alert("Qual processador é recomendado para rodar jogos pesados e com velocidade.");
+        }
+    }
+
+
+
+</script>
